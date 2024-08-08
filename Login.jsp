@@ -1,10 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
@@ -14,9 +16,8 @@
         <input type="text" name="email" placeholder="Email" required>
         <input type="password" name="password" placeholder="Password" required>
         <input type="submit" value="Login">
-        <input type="button" value="Back to Home" onclick="window.location.href='index.jsp'">
     </form>
-    <p>Don't have an account? <a href="./Registration.jsp">Register here</a></p> 
+    <p>Don't have an account? <a href="./register.jsp">Register here</a></p> 
 </div>
 
 </body>
